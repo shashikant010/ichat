@@ -1,4 +1,4 @@
-const socket = io('http://192.168.63.220:8000');
+const socket = io('https://ichatback.onrender.com');
 
 const form = document.getElementById('send-container');
 const messageInput=document.getElementById('messageInp')
